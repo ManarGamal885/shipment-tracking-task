@@ -1,0 +1,71 @@
+.wrapper {
+    max-width: 395px; 
+    height: 68px;
+    margin: 0 auto;
+}
+
+.form {
+    position: relative;
+}
+
+.inputGroup {
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); 
+    border-radius: 0.5rem; 
+}
+
+.submitButton {
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 3rem;
+    background-color: #E30613; 
+    border-radius: 0.5rem 0 0 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none; 
+    outline: none; 
+    transition: transform 0.1s ease, background-color 0.1s ease; 
+}
+
+.submitButton:active {
+    transform: scale(0.98); 
+    background-color: #d12d2d; 
+}
+
+.submitButton:hover {
+    cursor: pointer; 
+    background-color: #e63939; 
+}
+
+.submitButton:focus {
+    outline: none; 
+}
+
+.submitIcon {
+    height: 1.5rem;
+    width: 1.5rem;
+    color: #ffffff; 
+}
+
+.inputField {
+    width: 100%;
+    padding: 12px 16px 12px 3.5rem; 
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb; 
+    color: #374151; 
+    font-size: 1.125rem; 
+    border-radius: 0.5rem; 
+    outline: none;
+}
+
+.inputField:focus {
+    border-color: #e5e7eb;
+    box-shadow: none;
+}
+.inputField::placeholder {
+    font-size: 12px;
+    color: #9ca3af;
+}

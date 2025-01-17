@@ -1,0 +1,117 @@
+/* Media Queries for Responsiveness */
+
+/*Desktop Styles*/
+@media (min-width: 710px ) and (max-width: 868px) {
+    .progress-line{
+        position: absolute;
+        top: 30px;
+        left: 50px;
+        right: 50px;
+        height: 2px;
+        background-image: linear-gradient(to right, #e0e0e0 50%, transparent 50%);
+        background-size: 8px 1px;
+        background-repeat: repeat-x;
+        z-index: 1;
+    }
+}
+
+@media (min-width: 869px ) and (max-width: 880px ){
+    .progress-line{
+        position: absolute;
+        top: 30px;
+        left: 53px;
+        right: 53px;
+        height: 2px;
+        background-image: linear-gradient(to right, #e0e0e0 50%, transparent 50%);
+        background-size: 8px 1px;
+        background-repeat: repeat-x;
+        z-index: 1;
+    }
+}
+
+@media (min-width: 881px ) and (max-width: 995px ){
+    .progress-line{
+        position: absolute;
+        top: 30px;
+        left: 60px;
+        right: 60px;
+        height: 2px;
+        background-image: linear-gradient(to right, #e0e0e0 50%, transparent 50%);
+        background-size: 8px 1px;
+        background-repeat: repeat-x;
+        z-index: 1;
+    }
+}
+
+@media (min-width: 881px ) and (max-width: 995px ){
+    .progress-line{
+        position: absolute;
+        top: 30px;
+        left: 60px;
+        right: 60px;
+        height: 2px;
+        background-image: linear-gradient(to right, #e0e0e0 50%, transparent 50%);
+        background-size: 8px 1px;
+        background-repeat: repeat-x;
+        z-index: 1;
+    }
+}
+
+
+/* Tablet Styles */
+@media (max-width: 710px) {
+    .shipment-details-container {
+        flex-direction: column;
+        width: 95%;
+        height: auto;
+        justify-content: center;
+    }
+
+    .shipment-information {
+        border-bottom: 1px solid #f0f0f0;
+        align-content: center;
+    }
+
+    .shipment-tracking-process {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .tracking-steps {
+        flex-direction: column;
+        gap: 30px;
+        margin-left: 20px;
+    }
+
+    .progress-line {
+        top: 40px;
+        left: 8px;
+        width: 2px;
+        right: auto;
+        height: 80%;
+        background: none;
+        border-right: 2px dotted #e0e0e0;
+
+    }
+
+    .progress-fill {
+        width: 2px;
+        border-left: 2px solid #00A5A5;
+    }
+
+    .step {
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .step-label {
+        margin-top: 0;
+        text-align: left;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+}

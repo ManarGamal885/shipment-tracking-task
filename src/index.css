@@ -1,0 +1,15 @@
+/* src/styles/index.css */
+@import './styles/components/shipmentDetails.css';
+@import './styles/components/shipmentSearch.css';
+@import "./styles/components/deliveryTimeline.css";
+@import "styles/pages/homePage.css";
+@import "./styles/variables.css";
+@import "styles/responsive.css";
+@import "styles/pages/shipmintNotFound.css";
+@import "styles/components/icons/locationIcon.css";
+html, body {
+    height: 100%;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    box-sizing: border-box; /* Include padding/border in size calculations */
+}
